@@ -1,0 +1,35 @@
+{
+  "thriftServer" : {
+      "address"                    : "127.0.0.1:8777",
+      "enabled"                    : true,
+      "serviceName"                : "FeedThriftProxy",
+      "feedThriftPoolNum"          :1000,
+      "feedThriftTimeOut"          :10000,
+      "feedExPoolNum"              :1000,
+      "feedExTimeOut"              :10000,
+      "marketDepthPoolNum"         :1000,
+      "marketTimeOut"              :10000,
+      "stocksByTypePoolNum"        :1000,
+      "stocksByTypeTimeOut"        :10000,
+      "stockTradeStatusPoolNum"    :1000,
+      "stockTradeStatusTimeOut"    :10000,
+      "kChartTimeOut"              :10000,
+      "kChartPoolNum"              :1000,
+      "timeChartTimeOut"           :10000,
+      "timeChartPoolNum"           :1000,
+      "stockBasicInfoBatchTimeOut" :10000,
+      "stockBasicInfoBatchPoolNum" :1000,
+      "stockTicksTimeOut"          :10000,
+      "stockTicksPoolNum"          :1000,
+      "realBusAddr"                : "127.0.0.1:6020",
+      "chartBusAddr"               : "127.0.0.1:6040"
+  },
+  "etcdServer": {
+      "etcdUrl"             : "http://10.1.2.151:8974",
+      "serviceName"         : "Arith",
+      "basePath"            : "/rpcx/",
+      "chartserviceName"    : "Arith",
+      "used"                : false,
+  }
+}
+
